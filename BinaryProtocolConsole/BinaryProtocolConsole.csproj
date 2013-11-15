@@ -67,11 +67,11 @@
     <Compile Include="Commands\DisconnectCommand.cs" />
     <Compile Include="Commands\GetCommand.cs" />
     <Compile Include="Commands\RdCommand.cs" />
-    <Compile Include="Commands\DropFileCommand.cs" />
+    <Compile Include="Commands\DropCommand.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="Commands\InitCommand.cs" />
     <Compile Include="Commands\LsCommand.cs" />
-    <Compile Include="Commands\LsrCommand.cs" />
+    <Compile Include="Commands\RlsCommand.cs" />
     <Compile Include="Commands\MdCommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

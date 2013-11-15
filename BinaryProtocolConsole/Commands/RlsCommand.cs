@@ -5,9 +5,9 @@ using Sockets.Definitions;
 
 namespace BinaryProtocolConsole.Commands
 {
-    public class LsrCommand :ConsoleCommand
+    public class RlsCommand :ConsoleCommand
     {
-        public LsrCommand()
+        public RlsCommand()
         {
             Name = "rls";
             ArgsCount = 0;

@@ -18,7 +18,7 @@ namespace BinaryProtocolConsole.Commands
             var fileName = args[0].ToRemotePath(env);
             var rec = args.Length == 2 && args[1] == "-r";
             var client = (BinaryProtocolClient) env["activeConnection"];
-            if(client.DropDirectory(fileName,rec).Result.OpCode!=OpCodes.Success)
+            if(client.DropDirectory(fileName,rec).Result.OpCode==OpCodes.Success)
                 Console.WriteLine("Remote directory {0} deleted",fileName);
             else
             {
