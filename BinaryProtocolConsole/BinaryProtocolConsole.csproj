@@ -63,6 +63,8 @@
   <ItemGroup>
     <Compile Include="Commands\CdCommand.cs" />
     <Compile Include="Commands\ConnectCommand.cs" />
+    <Compile Include="Commands\RunAndWait.cs" />
+    <Compile Include="Commands\RunNoWait.cs" />
     <Compile Include="ConsoleCommand.cs" />
     <Compile Include="Commands\DisconnectCommand.cs" />
     <Compile Include="Commands\GetCommand.cs" />
