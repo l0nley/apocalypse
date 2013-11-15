@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Definitions", "Sockets.Defninitions\Sockets.Definitions.csproj", "{B65BAB5C-D97D-4A7F-8926-4BE095FA467B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Listener", "Sockets.Listener\Sockets.Listener.csproj", "{4F28ECD0-CFB8-4020-9F2B-EDEEECF0947B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket.BinaryCommandProcessor", "Socket.BinaryCommandProcessor\Socket.BinaryCommandProcessor.csproj", "{90D67455-A34A-4250-A279-C116965CCC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Client", "Sockets.Client\Sockets.Client.csproj", "{39A3F2A4-7966-4930-9861-B49D01C127F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryProtocolConsole", "BinaryProtocolConsole\BinaryProtocolConsole.csproj", "{94F891B4-9C59-48B8-8F5D-AE8D43B52A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryProtocolServerConsole", "BinaryProtocolServerConsole\BinaryProtocolServerConsole.csproj", "{F24F6608-D1FB-4292-9B23-D8C807A6E0C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B65BAB5C-D97D-4A7F-8926-4BE095FA467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65BAB5C-D97D-4A7F-8926-4BE095FA467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65BAB5C-D97D-4A7F-8926-4BE095FA467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65BAB5C-D97D-4A7F-8926-4BE095FA467B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F28ECD0-CFB8-4020-9F2B-EDEEECF0947B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F28ECD0-CFB8-4020-9F2B-EDEEECF0947B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F28ECD0-CFB8-4020-9F2B-EDEEECF0947B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F28ECD0-CFB8-4020-9F2B-EDEEECF0947B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D67455-A34A-4250-A279-C116965CCC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D67455-A34A-4250-A279-C116965CCC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D67455-A34A-4250-A279-C116965CCC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D67455-A34A-4250-A279-C116965CCC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A3F2A4-7966-4930-9861-B49D01C127F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A3F2A4-7966-4930-9861-B49D01C127F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A3F2A4-7966-4930-9861-B49D01C127F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A3F2A4-7966-4930-9861-B49D01C127F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F891B4-9C59-48B8-8F5D-AE8D43B52A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F891B4-9C59-48B8-8F5D-AE8D43B52A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F891B4-9C59-48B8-8F5D-AE8D43B52A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F891B4-9C59-48B8-8F5D-AE8D43B52A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24F6608-D1FB-4292-9B23-D8C807A6E0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24F6608-D1FB-4292-9B23-D8C807A6E0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24F6608-D1FB-4292-9B23-D8C807A6E0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24F6608-D1FB-4292-9B23-D8C807A6E0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
