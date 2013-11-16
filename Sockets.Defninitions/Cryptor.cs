@@ -5,8 +5,12 @@ namespace Sockets.Definitions
 {
     public class Cryptor
     {
-        private readonly byte[] _key =
-           new MD5CryptoServiceProvider().ComputeHash(Encoding.UTF8.GetBytes("a;lkdfjaklsjdfklasdfklsdfjl"));
+        private readonly byte[] _key;
+
+        public Cryptor(string sessionPassword)
+        {
+            _key = new MD5CryptoServiceProvider().ComputeHash(Encoding.UTF8.GetBytes(sessionPassword));
+        }
 
         public byte[] Decrypt(byte[] take)
         {

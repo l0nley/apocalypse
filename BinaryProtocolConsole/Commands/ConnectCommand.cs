@@ -19,7 +19,7 @@ namespace BinaryProtocolConsole.Commands
                 Console.WriteLine("There is already connected");
                 return;
             }
-            var con = new BinaryProtocolClient(args[0], Convert.ToInt32(args[1]));
+            var con = new BinaryProtocolClient(args[0], Convert.ToInt32(args[1]), "Some Secret string ");
             con.Connect();
             env.Add("currentHost",args[0]);
             env.Add("currentPort",args[1]);

@@ -15,6 +15,7 @@ namespace Sockets.Client
 {
     public class BinaryProtocolClient :IDisposable
     {
+        private readonly string _encryptionKey;
         private readonly ReactiveClient _client;
 
         private readonly CompositeDisposable _disposable;
@@ -22,12 +23,13 @@ namespace Sockets.Client
         private readonly Dictionary<Guid,ManualResetEvent>  _stops = new Dictionary<Guid, ManualResetEvent>();
         private readonly Dictionary<Guid,BinaryMessage> _messages = new Dictionary<Guid, BinaryMessage>();
 
-        public BinaryProtocolClient(string host,int port)
+        public BinaryProtocolClient(string host,int port,string encryptionKey)
         {
+            _encryptionKey = encryptionKey;
             _disposable = new CompositeDisposable();
             _client = new ReactiveClient(host, port);
             _disposable.Add(_client);
-            _proto = new BinaryProtoChannel(_client);
+            _proto = new BinaryProtoChannel(_client,_encryptionKey);
             _proto.Receiver.Subscribe(SequnceCompleted);
             _disposable.Add(_proto);
         }
