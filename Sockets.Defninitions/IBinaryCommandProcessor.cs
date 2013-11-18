@@ -2,6 +2,6 @@
 {
     public interface IBinaryCommandProcessor
     {
-        void ProcessCommand(BinaryMessage sock, BinaryProtoChannel proto);
+        void ProcessCommand(BinaryMessage sock, IChannel<BinaryMessage> proto);
     }
 }

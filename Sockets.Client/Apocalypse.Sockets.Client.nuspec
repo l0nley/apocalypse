@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Apocalypse.Sockets.Client</id>
-    <version>1.0.0.3</version>
+    <version>1.0.0.5</version>
     <authors>Uladzimir Harabtsou</authors>
     <description>Клиент бинарного протокола</description>
     <dependencies>
       <dependency id="ReactiveSockets" version="0.2.4" />
-      <dependency id="Apocalypse.Sockets.Definitions" version="1.0.0.2" />
+      <dependency id="Apocalypse.Sockets.Definitions" version="1.0.0.5" />
     </dependencies>
   </metadata>
   <files>

@@ -12,11 +12,13 @@ namespace Apocalypse.Sockets.Definitions
         private readonly string _encryptionKey;
         private const int LongSize = sizeof (long);
         private const int IntSize = sizeof (int);
+        private readonly bool _encryptionRequiered;
         private readonly int _guidSize;
         private readonly int _headerSize;
        
         public BinaryProtoChannel(ReactiveSocket socket,string encryptionKey)
         {
+            _encryptionRequiered= string.IsNullOrEmpty(encryptionKey);
             _guidSize = Guid.NewGuid().ToByteArray().Length;
             _headerSize = _guidSize + LongSize+IntSize;
             _socket = socket;
@@ -32,14 +34,15 @@ namespace Apocalypse.Sockets.Definitions
                                Length = length,
                                OpCode = opCode,
                                SequenceId = seqId,
-                               Payload = new Cryptor(_encryptionKey).Decrypt(payload)
+                               Payload = _encryptionRequiered ? new Cryptor(_encryptionKey).Decrypt(payload) : payload
                            };
         }
 
         
 
         public IObservable<BinaryMessage> Receiver { get; private set; }
-        public Task SendAsync(BinaryMessage message)
+
+        public virtual Task SendAsync(BinaryMessage message)
         {
             return _socket.SendAsync(Convert(message));
         }
