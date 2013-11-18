@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reactive.Disposables;
+using Apocalypse.Sockets.Definitions;
 using ReactiveSockets;
-using Sockets.Definitions;
 
-namespace Sockets.Listener
+namespace Apocalypse.Sockets.Listener
 {
     public class BinaryProtocolListener : IDisposable
     {

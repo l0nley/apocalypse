@@ -1,4 +1,4 @@
-﻿namespace Sockets.Definitions
+﻿namespace Apocalypse.Sockets.Definitions
 {
     public interface IBinaryCommandProcessor
     {

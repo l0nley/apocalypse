@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Reactive.Disposables;
 using System.Threading;
 using System.Threading.Tasks;
+using Apocalypse.Sockets.Definitions;
 using ReactiveSockets;
-using Sockets.Definitions;
 
-namespace Sockets.Client
+namespace Apocalypse.Sockets.Client
 {
     public class BinaryProtocolClient :IDisposable
     {

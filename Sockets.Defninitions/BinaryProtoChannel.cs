@@ -4,7 +4,7 @@ using System.Reactive.Linq;
 using System.Threading.Tasks;
 using ReactiveSockets;
 
-namespace Sockets.Definitions
+namespace Apocalypse.Sockets.Definitions
 {
     public class BinaryProtoChannel :IChannel<BinaryMessage>,IDisposable
     {

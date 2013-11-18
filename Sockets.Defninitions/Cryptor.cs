@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace Sockets.Definitions
+namespace Apocalypse.Sockets.Definitions
 {
     public class Cryptor
     {

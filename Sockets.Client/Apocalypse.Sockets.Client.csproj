@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Apocalypse.Sockets.Definitions">
-      <HintPath>..\packages\Apocalypse.Sockets.Definitions.1.0.0.1\lib\net45\Apocalypse.Sockets.Definitions.dll</HintPath>
+    <Reference Include="Apocalypse.Sockets.Definitions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Apocalypse.Sockets.Definitions.1.0.0.2\lib\net45\Apocalypse.Sockets.Definitions.dll</HintPath>
     </Reference>
     <Reference Include="ReactiveSockets">
       <HintPath>..\packages\ReactiveSockets.0.2.4\lib\net40\ReactiveSockets.dll</HintPath>

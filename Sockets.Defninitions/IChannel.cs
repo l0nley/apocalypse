@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Sockets.Definitions
+namespace Apocalypse.Sockets.Definitions
 {
     public interface IChannel<T>
     {

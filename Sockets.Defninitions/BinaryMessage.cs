@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sockets.Definitions
+namespace Apocalypse.Sockets.Definitions
 {
     public class BinaryMessage
     {
