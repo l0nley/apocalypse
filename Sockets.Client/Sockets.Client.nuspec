@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Sockets.Client</id>
+    <version>1.0.0.1</version>
+    <authors>Uladzimir Harabtsou</authors>
+    <description>Клиент бинарного протокола</description>
+    <dependencies>
+      <dependency id="ReactiveSockets" version="0.2.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\Sockets.Client.dll" target="net45" />
+    <file src="bin\$configuration$\Sockets.Definitions.dll" target="net45" />
+  </files>
+</package>

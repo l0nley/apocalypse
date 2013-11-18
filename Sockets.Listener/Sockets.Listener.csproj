@@ -70,6 +70,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Sockets.Listener.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sockets.Defninitions\Sockets.Definitions.csproj">
