@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Sockets.Listener</id>
+    <id>Apocalypse.Sockets.Listener</id>
     <version>1.0.0.1</version>
     <authors>Uladzimir Harabtsou</authors>
     <description>Сервер бинарного протокола</description>
     <dependencies>
       <dependency id="ReactiveSockets" version="0.2.4" />
+      <dependency id="Apocalypse.Sockets.Definitions" version="1.0.0.1" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\Sockets.Listener.dll" target="\lib\net45" />
-    <file src="bin\Release\Sockets.Definitions.dll" target="\lib\net45" />
+    <file src="bin\Release\Apocalypse.Sockets.Listener.dll" target="\lib\net45" />
   </files>
 </package>

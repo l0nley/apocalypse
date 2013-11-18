@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Definitions", "Sockets.Defninitions\Sockets.Definitions.csproj", "{B65BAB5C-D97D-4A7F-8926-4BE095FA467B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apocalypse.Sockets.Definitions", "Sockets.Defninitions\Apocalypse.Sockets.Definitions.csproj", "{B65BAB5C-D97D-4A7F-8926-4BE095FA467B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Listener", "Sockets.Listener\Sockets.Listener.csproj", "{4F28ECD0-CFB8-4020-9F2B-EDEEECF0947B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apocalypse.Sockets.Listener", "Sockets.Listener\Apocalypse.Sockets.Listener.csproj", "{4F28ECD0-CFB8-4020-9F2B-EDEEECF0947B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockets.Client", "Sockets.Client\Sockets.Client.csproj", "{39A3F2A4-7966-4930-9861-B49D01C127F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apocalypse.Sockets.Client", "Sockets.Client\Apocalypse.Sockets.Client.csproj", "{39A3F2A4-7966-4930-9861-B49D01C127F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3CBBA0D-7586-4D51-A41B-DEF89BA1E947}"
 	ProjectSection(SolutionItems) = preProject

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Apocalypse.Sockets.Client</id>
+    <version>1.0.0.1</version>
+    <authors>Uladzimir Harabtsou</authors>
+    <description>Клиент бинарного протокола</description>
+    <dependencies>
+      <dependency id="ReactiveSockets" version="0.2.4" />
+      <dependency id="Apocalypse.Sockets.Definitions" version="1.0.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Apocalypse.Sockets.Client.dll" target="net45" />
+  </files>
+</package>
