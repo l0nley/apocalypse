@@ -10,7 +10,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\$configuration$\Sockets.Client.dll" target="net45" />
-    <file src="bin\$configuration$\Sockets.Definitions.dll" target="net45" />
+    <file src="bin\Release\Sockets.Client.dll" target="net45" />
+    <file src="bin\Release\Sockets.Definitions.dll" target="net45" />
   </files>
 </package>
